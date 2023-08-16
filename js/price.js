@@ -28,6 +28,12 @@ document.getElementById('btn-1').addEventListener('click', function(){
     pp.innerText = `Price: ${book1Price}`;
     showPrice.appendChild(pp);
 
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
+
     
 
 
@@ -58,6 +64,12 @@ document.getElementById('btn-2').addEventListener('click', function(){
     pp.innerText = book2Price;
     showPrice.appendChild(pp);
 
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
+
 })
 
 // Book 3
@@ -84,6 +96,12 @@ document.getElementById('btn-3').addEventListener('click', function(){
     const pp = document.createElement('p');
     pp.innerText = book3Price;
     showPrice.appendChild(pp);
+
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
 
 })
 
@@ -112,6 +130,12 @@ document.getElementById('btn-4').addEventListener('click', function(){
     pp.innerText = book4Price;
     showPrice.appendChild(pp);
 
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
+
 })
 
 // Book 5
@@ -139,6 +163,12 @@ document.getElementById('btn-5').addEventListener('click', function(){
     pp.innerText = book5Price;
     showPrice.appendChild(pp);
 
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
+
 })
 
 // Book 6
@@ -165,5 +195,11 @@ document.getElementById('btn-6').addEventListener('click', function(){
     const pp = document.createElement('p');
     pp.innerText = book6Price;
     showPrice.appendChild(pp);
+
+    // br tag
+    const brTag = document.getElementById('total-price');
+    const br = document.createElement('br');
+    br.innerText = br;
+    brTag.appendChild(br);
 
 })
