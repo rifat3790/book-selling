@@ -1,19 +1,35 @@
-// Book 3
+// Book 1
+let cartCount = 0;
 document.getElementById('btn-1').addEventListener('click', function(){
     const book1Name = getTextElementString('book-1-name');
     
     const book1Price = getTextElementNumber('book-1-price');
     console.log(book1Name, book1Price);
 
+
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
+
+    // Book name starts
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
     p.innerText = book1Name;
     showName.appendChild(p);
+    // End
 
+    // Book price starts
     const showPrice = document.getElementById('total-price');
     const pp = document.createElement('p');
-    pp.innerText = book1Price;
+    pp.innerText = `Price: ${book1Price}`;
     showPrice.appendChild(pp);
+
+    
+
 
 })
 
@@ -23,6 +39,14 @@ document.getElementById('btn-2').addEventListener('click', function(){
     
     const book2Price = getTextElementNumber('book-2-price');
     console.log(book2Name, book2Price);
+
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
 
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
@@ -43,6 +67,14 @@ document.getElementById('btn-3').addEventListener('click', function(){
     const book3Price = getTextElementNumber('book-3-price');
     console.log(book3Name, book3Price);
 
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
+
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
     p.innerText = book3Name;
@@ -61,6 +93,14 @@ document.getElementById('btn-4').addEventListener('click', function(){
     
     const book4Price = getTextElementNumber('book-4-price');
     console.log(book4Name, book4Price);
+
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
 
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
@@ -81,6 +121,14 @@ document.getElementById('btn-5').addEventListener('click', function(){
     const book5Price = getTextElementNumber('book-5-price');
     console.log(book5Name, book5Price);
 
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
+
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
     p.innerText = book5Name;
@@ -99,6 +147,14 @@ document.getElementById('btn-6').addEventListener('click', function(){
     
     const book6Price = getTextElementNumber('book-6-price');
     console.log(book6Name, book6Price);
+
+    // Book count starts
+    cartCount++;
+    const countBook = document.getElementById('total-price');
+    const bookNo  = document.createElement('p');
+    bookNo.innerText = cartCount;
+    countBook.append(bookNo);
+    // End
 
     const showName = document.getElementById('total-price');
     const p = document.createElement('p');
