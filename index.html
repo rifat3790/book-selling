@@ -1,11 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Selling</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <main class="px-5 pb-10">
+
+        <div class="title-container">
+            <h1
+                class="mb-4 text-2xl text-center font-extrabold text-gray-900 dark:text-white md:text-3xl lg:text-4xl lg:my-8">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Jhankar Mahbub
+                    Books Store
+                </span>
+            </h1>
+        </div>
+
+        <section class="container flex w-full justify-between flex-col lg:flex lg:flex-row gap-5 ">
+
+            <div id="productContainer"
+                class="pt-7 w-full lg:w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-12">
+
+                <!-- 1st -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="https://wafilife-media.wafilife.com/uploads/2020/11/%E0%A6%B9%E0%A6%BE%E0%A6%AC%E0%A6%B2%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9C%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%82.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">প্রোগ্রামিংয়ের চৌদ্দগোষ্ঠী</h2>
+                      <div class="flex gap-4">
+                        <p><del>399</del>TK.</p>
+                      <p><span>299</span>TK.</p>
+                      </div>
+                      <p>rating: 4.7</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary bg-gradient-to-r to-emerald-600 from-sky-400 border-none">ADD TO CARD</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 2nd -->
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 3rd -->
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 4th -->
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 5th -->
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 6th -->
+                  <div class="card bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+            </div>
+
+            <div class="lg:w-[20%] w-full h-[100vh] overflow-y-auto sticky top-3">
+                <p class="text-center">Total Cart Item</p>
+                <p class="text-center p-3" id="totalPriceDisplay" class="mt-5"></p>
+
+
+                <div id="cartContainer" class="cartContainer ">
+                    <!--cart code here -->
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
 </body>
 </html>
